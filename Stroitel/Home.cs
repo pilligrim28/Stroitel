@@ -67,25 +67,37 @@ namespace Stroitel
 
         private void checkVanna_CheckedChanged(object sender, System.EventArgs e)
         {
-            if (checkSpal.Checked)
+            if (checkVanna.Checked)
             {
-                panelSpal.Visible = true;
+                panelVanna.Visible = true;
             }
             else
             {
-            panelVanna.Visible = false;
+                panelVanna.Visible = false;
             }
         }
 
         private void checkKorid_CheckedChanged(object sender, System.EventArgs e)
         {
-            if(checkKorid.Checked)
+            if (checkKorid.Checked)
             {
                 panelKoridor.Visible = true;
             }
             else
             {
                 panelKoridor.Visible = false;
+            }
+        }
+
+        private void checkOther_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (checkOther.Checked)
+            {
+                panelOther.Visible = true;
+            }
+            else
+            {
+                panelOther.Visible = false;
             }
         }
     }

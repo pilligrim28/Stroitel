@@ -753,6 +753,7 @@
             this.checkOther.TabIndex = 48;
             this.checkOther.Text = "Другое";
             this.checkOther.UseVisualStyleBackColor = true;
+            this.checkOther.CheckedChanged += new System.EventHandler(this.checkOther_CheckedChanged);
             // 
             // checkKorid
             // 

@@ -16,32 +16,76 @@ namespace Stroitel
             {
                 pictureBox1.Image = Properties.Resources.standart;
             }
-            else if (radioNestandart.Checked == true)
+            else
             {
                 pictureBox1.Image = Properties.Resources.nestandart;
             }
-            else
-            {
-                pictureBox1.Image = null;
-                    }
+
 
         }
 
         private void radioStandart_CheckedChanged(object sender, System.EventArgs e)
         {
-           
+
         }
 
-        private void checkedListBox1_SelectedIndexChanged(object sender, System.EventArgs e)
+        private void checkKuhnya_CheckedChanged(object sender, System.EventArgs e)
         {
-           if (checkedListBox1.SelectedIndex == 0)
-
+            if (checkKuhnya.Checked)
             {
                 panelKuhnya.Visible = true;
             }
-           else
+            else
             {
                 panelKuhnya.Visible = false;
+            }
+        }
+
+        private void checkGost_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (checkGost.Checked)
+            {
+                panelGost.Visible = true;
+            }
+            else
+            {
+                panelGost.Visible = false;
+            }
+        }
+
+        private void checkSpal_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (checkSpal.Checked)
+            {
+                panelSpal.Visible = true;
+            }
+            else
+            {
+                panelSpal.Visible = false;
+            }
+        }
+
+        private void checkVanna_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (checkSpal.Checked)
+            {
+                panelSpal.Visible = true;
+            }
+            else
+            {
+            panelVanna.Visible = false;
+            }
+        }
+
+        private void checkKorid_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if(checkKorid.Checked)
+            {
+                panelKoridor.Visible = true;
+            }
+            else
+            {
+                panelKoridor.Visible = false;
             }
         }
     }

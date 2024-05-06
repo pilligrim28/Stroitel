@@ -47,8 +47,8 @@
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checShtukat = new System.Windows.Forms.CheckBox();
+            this.checkFund = new System.Windows.Forms.CheckBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label34 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -139,8 +139,6 @@
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -156,6 +154,8 @@
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -268,8 +268,8 @@
             this.tabPage1.Controls.Add(this.checkBox5);
             this.tabPage1.Controls.Add(this.checkBox4);
             this.tabPage1.Controls.Add(this.checkBox3);
-            this.tabPage1.Controls.Add(this.checkBox2);
-            this.tabPage1.Controls.Add(this.checkBox1);
+            this.tabPage1.Controls.Add(this.checShtukat);
+            this.tabPage1.Controls.Add(this.checkFund);
             this.tabPage1.Controls.Add(this.panel9);
             this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.panel3);
@@ -279,7 +279,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1376, 811);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Калькулятор";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // checkBox8
@@ -342,25 +342,25 @@
             this.checkBox3.Text = "checkBox3";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checShtukat
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(308, 558);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 17);
-            this.checkBox2.TabIndex = 30;
-            this.checkBox2.Text = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checShtukat.AutoSize = true;
+            this.checShtukat.Location = new System.Drawing.Point(308, 558);
+            this.checShtukat.Name = "checShtukat";
+            this.checShtukat.Size = new System.Drawing.Size(85, 17);
+            this.checShtukat.TabIndex = 30;
+            this.checShtukat.Text = "Штукатурка";
+            this.checShtukat.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // checkFund
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(308, 535);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 29;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkFund.AutoSize = true;
+            this.checkFund.Location = new System.Drawing.Point(308, 535);
+            this.checkFund.Name = "checkFund";
+            this.checkFund.Size = new System.Drawing.Size(85, 17);
+            this.checkFund.TabIndex = 29;
+            this.checkFund.Text = "Фундамент";
+            this.checkFund.UseVisualStyleBackColor = true;
             // 
             // panel9
             // 
@@ -1174,6 +1174,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.PowderBlue;
+            this.panel1.Controls.Add(this.comboBox3);
+            this.panel1.Controls.Add(this.comboBox2);
             this.panel1.Controls.Add(this.label41);
             this.panel1.Controls.Add(this.label40);
             this.panel1.Controls.Add(this.label39);
@@ -1186,8 +1188,6 @@
             this.panel1.Controls.Add(this.label37);
             this.panel1.Controls.Add(this.label38);
             this.panel1.Controls.Add(this.textBox29);
-            this.panel1.Controls.Add(this.textBox30);
-            this.panel1.Controls.Add(this.textBox31);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.maskedTextBox1);
             this.panel1.Controls.Add(this.label3);
@@ -1276,22 +1276,6 @@
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(190, 20);
             this.textBox29.TabIndex = 19;
-            // 
-            // textBox30
-            // 
-            this.textBox30.ForeColor = System.Drawing.Color.Snow;
-            this.textBox30.Location = new System.Drawing.Point(390, 74);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(276, 20);
-            this.textBox30.TabIndex = 18;
-            // 
-            // textBox31
-            // 
-            this.textBox31.ForeColor = System.Drawing.Color.Snow;
-            this.textBox31.Location = new System.Drawing.Point(86, 74);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(276, 20);
-            this.textBox31.TabIndex = 17;
             // 
             // label4
             // 
@@ -1382,7 +1366,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1376, 811);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Рассчет";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
@@ -1451,6 +1435,22 @@
             this.label41.Size = new System.Drawing.Size(91, 20);
             this.label41.TabIndex = 30;
             this.label41.Text = "Название";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(134, 72);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(198, 21);
+            this.comboBox2.TabIndex = 31;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(428, 72);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(179, 21);
+            this.comboBox3.TabIndex = 32;
             // 
             // Home
             // 
@@ -1612,22 +1612,22 @@
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox6;
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checShtukat;
+        private System.Windows.Forms.CheckBox checkFund;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.MaskedTextBox maskedTextBox5;
         private System.Windows.Forms.MaskedTextBox maskedTextBox4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }
 

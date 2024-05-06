@@ -100,5 +100,6 @@ namespace Stroitel
                 panelOther.Visible = false;
             }
         }
+
     }
 }

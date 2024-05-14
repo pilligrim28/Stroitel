@@ -42,33 +42,43 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.maskedTextBox15 = new System.Windows.Forms.MaskedTextBox();
             this.label51 = new System.Windows.Forms.Label();
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label44 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.maskedTextBox9 = new System.Windows.Forms.MaskedTextBox();
             this.label45 = new System.Windows.Forms.Label();
             this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.maskedTextBox10 = new System.Windows.Forms.MaskedTextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.maskedTextBox14 = new System.Windows.Forms.MaskedTextBox();
             this.label50 = new System.Windows.Forms.Label();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.maskedTextBox13 = new System.Windows.Forms.MaskedTextBox();
             this.label49 = new System.Windows.Forms.Label();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.maskedTextBox12 = new System.Windows.Forms.MaskedTextBox();
             this.label48 = new System.Windows.Forms.Label();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.maskedTextBox11 = new System.Windows.Forms.MaskedTextBox();
             this.label47 = new System.Windows.Forms.Label();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label44 = new System.Windows.Forms.Label();
+            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
             this.label43 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
             this.label42 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.checkShvi = new System.Windows.Forms.CheckBox();
@@ -188,16 +198,6 @@
             this.textFam = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox9 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox10 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox11 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox12 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox13 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox14 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox15 = new System.Windows.Forms.MaskedTextBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -357,6 +357,13 @@
             this.panel15.Size = new System.Drawing.Size(107, 42);
             this.panel15.TabIndex = 40;
             // 
+            // maskedTextBox15
+            // 
+            this.maskedTextBox15.Location = new System.Drawing.Point(0, 19);
+            this.maskedTextBox15.Name = "maskedTextBox15";
+            this.maskedTextBox15.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox15.TabIndex = 45;
+            // 
             // label51
             // 
             this.label51.AutoSize = true;
@@ -373,6 +380,15 @@
             this.flowLayoutPanel10.Size = new System.Drawing.Size(12, 8);
             this.flowLayoutPanel10.TabIndex = 0;
             // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(843, 490);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(64, 13);
+            this.label44.TabIndex = 1;
+            this.label44.Text = "Шпаклевка";
+            // 
             // panel14
             // 
             this.panel14.Controls.Add(this.maskedTextBox9);
@@ -383,14 +399,21 @@
             this.panel14.Size = new System.Drawing.Size(107, 42);
             this.panel14.TabIndex = 40;
             // 
+            // maskedTextBox9
+            // 
+            this.maskedTextBox9.Location = new System.Drawing.Point(6, 16);
+            this.maskedTextBox9.Name = "maskedTextBox9";
+            this.maskedTextBox9.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox9.TabIndex = 5;
+            // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(33, 0);
+            this.label45.Location = new System.Drawing.Point(12, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(41, 13);
+            this.label45.Size = new System.Drawing.Size(85, 13);
             this.label45.TabIndex = 1;
-            this.label45.Text = "label45";
+            this.label45.Text = "Гидроизоляция";
             // 
             // flowLayoutPanel9
             // 
@@ -409,14 +432,21 @@
             this.panel13.Size = new System.Drawing.Size(107, 42);
             this.panel13.TabIndex = 40;
             // 
+            // maskedTextBox10
+            // 
+            this.maskedTextBox10.Location = new System.Drawing.Point(4, 16);
+            this.maskedTextBox10.Name = "maskedTextBox10";
+            this.maskedTextBox10.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox10.TabIndex = 6;
+            // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(31, 0);
+            this.label46.Location = new System.Drawing.Point(10, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(41, 13);
+            this.label46.Size = new System.Drawing.Size(89, 13);
             this.label46.TabIndex = 1;
-            this.label46.Text = "label46";
+            this.label46.Text = "Укладка плитки";
             // 
             // flowLayoutPanel8
             // 
@@ -434,6 +464,13 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(107, 42);
             this.panel12.TabIndex = 40;
+            // 
+            // maskedTextBox14
+            // 
+            this.maskedTextBox14.Location = new System.Drawing.Point(6, 21);
+            this.maskedTextBox14.Name = "maskedTextBox14";
+            this.maskedTextBox14.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox14.TabIndex = 44;
             // 
             // label50
             // 
@@ -461,6 +498,13 @@
             this.panel11.Size = new System.Drawing.Size(107, 42);
             this.panel11.TabIndex = 40;
             // 
+            // maskedTextBox13
+            // 
+            this.maskedTextBox13.Location = new System.Drawing.Point(6, 17);
+            this.maskedTextBox13.Name = "maskedTextBox13";
+            this.maskedTextBox13.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox13.TabIndex = 43;
+            // 
             // label49
             // 
             this.label49.AutoSize = true;
@@ -486,6 +530,13 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(107, 42);
             this.panel8.TabIndex = 40;
+            // 
+            // maskedTextBox12
+            // 
+            this.maskedTextBox12.Location = new System.Drawing.Point(36, 20);
+            this.maskedTextBox12.Name = "maskedTextBox12";
+            this.maskedTextBox12.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox12.TabIndex = 42;
             // 
             // label48
             // 
@@ -513,6 +564,13 @@
             this.panel7.Size = new System.Drawing.Size(107, 42);
             this.panel7.TabIndex = 40;
             // 
+            // maskedTextBox11
+            // 
+            this.maskedTextBox11.Location = new System.Drawing.Point(37, 19);
+            this.maskedTextBox11.Name = "maskedTextBox11";
+            this.maskedTextBox11.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox11.TabIndex = 41;
+            // 
             // label47
             // 
             this.label47.AutoSize = true;
@@ -538,14 +596,12 @@
             this.panel6.Size = new System.Drawing.Size(107, 42);
             this.panel6.TabIndex = 40;
             // 
-            // label44
+            // maskedTextBox8
             // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(843, 490);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(41, 13);
-            this.label44.TabIndex = 1;
-            this.label44.Text = "label44";
+            this.maskedTextBox8.Location = new System.Drawing.Point(3, 16);
+            this.maskedTextBox8.Name = "maskedTextBox8";
+            this.maskedTextBox8.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox8.TabIndex = 4;
             // 
             // flowLayoutPanel3
             // 
@@ -563,6 +619,13 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(107, 42);
             this.panel5.TabIndex = 40;
+            // 
+            // maskedTextBox7
+            // 
+            this.maskedTextBox7.Location = new System.Drawing.Point(36, 16);
+            this.maskedTextBox7.Name = "maskedTextBox7";
+            this.maskedTextBox7.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox7.TabIndex = 3;
             // 
             // label43
             // 
@@ -589,6 +652,13 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(107, 42);
             this.panel4.TabIndex = 39;
+            // 
+            // maskedTextBox6
+            // 
+            this.maskedTextBox6.Location = new System.Drawing.Point(36, 19);
+            this.maskedTextBox6.Name = "maskedTextBox6";
+            this.maskedTextBox6.Size = new System.Drawing.Size(68, 20);
+            this.maskedTextBox6.TabIndex = 2;
             // 
             // label42
             // 
@@ -1805,76 +1875,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1370, 805);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // maskedTextBox6
-            // 
-            this.maskedTextBox6.Location = new System.Drawing.Point(36, 19);
-            this.maskedTextBox6.Name = "maskedTextBox6";
-            this.maskedTextBox6.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox6.TabIndex = 2;
-            // 
-            // maskedTextBox7
-            // 
-            this.maskedTextBox7.Location = new System.Drawing.Point(36, 16);
-            this.maskedTextBox7.Name = "maskedTextBox7";
-            this.maskedTextBox7.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox7.TabIndex = 3;
-            // 
-            // maskedTextBox8
-            // 
-            this.maskedTextBox8.Location = new System.Drawing.Point(36, 16);
-            this.maskedTextBox8.Name = "maskedTextBox8";
-            this.maskedTextBox8.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox8.TabIndex = 4;
-            // 
-            // maskedTextBox9
-            // 
-            this.maskedTextBox9.Location = new System.Drawing.Point(36, 16);
-            this.maskedTextBox9.Name = "maskedTextBox9";
-            this.maskedTextBox9.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox9.TabIndex = 5;
-            // 
-            // maskedTextBox10
-            // 
-            this.maskedTextBox10.Location = new System.Drawing.Point(36, 16);
-            this.maskedTextBox10.Name = "maskedTextBox10";
-            this.maskedTextBox10.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox10.TabIndex = 6;
-            // 
-            // maskedTextBox11
-            // 
-            this.maskedTextBox11.Location = new System.Drawing.Point(37, 19);
-            this.maskedTextBox11.Name = "maskedTextBox11";
-            this.maskedTextBox11.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox11.TabIndex = 41;
-            // 
-            // maskedTextBox12
-            // 
-            this.maskedTextBox12.Location = new System.Drawing.Point(36, 20);
-            this.maskedTextBox12.Name = "maskedTextBox12";
-            this.maskedTextBox12.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox12.TabIndex = 42;
-            // 
-            // maskedTextBox13
-            // 
-            this.maskedTextBox13.Location = new System.Drawing.Point(36, 19);
-            this.maskedTextBox13.Name = "maskedTextBox13";
-            this.maskedTextBox13.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox13.TabIndex = 43;
-            // 
-            // maskedTextBox14
-            // 
-            this.maskedTextBox14.Location = new System.Drawing.Point(36, 20);
-            this.maskedTextBox14.Name = "maskedTextBox14";
-            this.maskedTextBox14.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox14.TabIndex = 44;
-            // 
-            // maskedTextBox15
-            // 
-            this.maskedTextBox15.Location = new System.Drawing.Point(37, 19);
-            this.maskedTextBox15.Name = "maskedTextBox15";
-            this.maskedTextBox15.Size = new System.Drawing.Size(68, 20);
-            this.maskedTextBox15.TabIndex = 45;
             // 
             // Home
             // 

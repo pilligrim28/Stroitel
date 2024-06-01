@@ -101,8 +101,16 @@ namespace Stroitel
             }
         }
 
-       
-
-        
+        private void checkFund_CheckedChanged(object sender, System.EventArgs e)
+        {
+            if (checkFund.Checked)
+            {
+                fundament.Visible = true;
+            }
+            else
+            {
+                fundament.Visible = false;
+            }
+        }
     }
 }

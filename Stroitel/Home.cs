@@ -112,5 +112,14 @@ namespace Stroitel
                 fundament.Visible = false;
             }
         }
+
+        private void buttRasch_Click(object sender, System.EventArgs e)
+        {
+            dataGridView1.Rows[0].Cells[0].Value = textFam.Text;
+            dataGridView1.Rows[0].Cells[1].Value = textName.Text;
+            dataGridView1.Rows[0].Cells[2].Value = textOtch.Text;
+            dataGridView1.Rows[0].Cells[3].Value = maskedTextBox1.Text;
+            dataGridView1.Rows[0].Cells[4].Value = comboBox2.Text +", " + comboBox3.Text+ ", " + comboBox1.Text + " " + textBox29.Text + ", "+"д."+ maskedTextBox3.Text+", " +"корп."+ maskedTextBox4.Text+", "+"кв."+maskedTextBox5.Text;
+        }
     }
 }
